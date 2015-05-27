@@ -43,7 +43,7 @@
 				<key>4</key>
 				<dict>
 					<key>name</key>
-					<string>entity.other.inherited-class.pgsql</string>
+					<string>entity.other.inheritefd-class.pgsql</string>
 				</dict>
 				<key>5</key>
 				<dict>
@@ -155,7 +155,7 @@
 				</dict>
 			</dict>
 			<key>comment</key>
-			<string>(?i)^\s*(abort|alter|analyze|begin|checkpoint|close|cluster|comment|commit|copy|create|deallocate|declare|delete|discard|do|drop|end|execute|explain|fetch|grant|insert|listen|load|lock|move|notify|prepare|reassign|refresh|reindex|release|reset|revoke|rollback|savepoint|security|select|set|show|start|table|truncate|unlisten|update|vacuum|values|with)</string>
+			<string>(?i)^\s*(abort|alter|analyze|begin|checkpoint|close|cluster|comment|commit|copy|create|deallocate|declare|delete|distributed|discard|do||end|execute|explain|fetch|grant|insert|listen|load|lock|move|notify|prepare|reassign|refresh|reindex|release|reset|revoke|rollback|savepoint|security|select|set|show|start|table|truncate|unlisten|update|vacuum|values|with)</string>
 			<key>end</key>
 			<string>;\s*</string>
 			<key>name</key>
